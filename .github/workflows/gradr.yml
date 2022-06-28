@@ -26,7 +26,7 @@ jobs:
     - name: Load Audits
       uses: actions/checkout@v2
       with: 
-        repository: exam-01-practice/assignment-02-audits-js
+        repository: exam-01-practice/assignment-02-gradr-audits-js
         path: audits
 
     - name: Prepare Audits
