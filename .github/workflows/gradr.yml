@@ -49,4 +49,13 @@ jobs:
       run: |
         cd audits
         yarn audit-ch-3
+
+    - name: Report Audits
+      uses: exam-01-practice/jest-to-sheets@v1
+      with:
+        challenge: 'ch-1;ch-2;ch-3'
+        lang: javascript
+        server: https://api.sheetson.com/v2/sheets
+        sheetid: 1Qb5Ovjy1l2UG94Cht2govguYX5fpCIgoTKPUd2ufMm4
+        token: HXlur8K20ZpoB-6FNsnSUtj2kGoDqCDHDl8vZBdLtQCv9UFOVhMsM2IBwD8
         
