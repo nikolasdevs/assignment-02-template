@@ -41,16 +41,19 @@ jobs:
         yarn audit-ch-1
 
     - name: Review Challenge - 2
+      if: always()
       run: |
         cd audits
         yarn audit-ch-2
 
     - name: Review Challenge - 3
+      if: always()
       run: |
         cd audits
         yarn audit-ch-3
 
     - name: Report Audits
+      if: always()
       uses: exam-01-practice/jest-to-sheets@v1
       with:
         challenge: 'ch-1;ch-2;ch-3'
