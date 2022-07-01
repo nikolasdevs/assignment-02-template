@@ -5,7 +5,26 @@ const maybe = sumOfNumbers === undefined ? test.skip : test;
 
 maybe('Challenge - 1 : my sumNumbers function can sum an array of numbers', () => {
     const numbers = [
-        38, 60, -29, -90, 55, -26, 23, 76, -17, 7, -85, 79, -36, -27, -62, -48, 87, 91, -26, 75
+        68,
+        -68,
+        27,
+        94,
+        72,
+        -25,
+        -51,
+        32,
+        10,
+        64,
+        -94,
+        4,
+        34,
+        -86,
+        90,
+        81,
+        20,
+        -56,
+        -91,
+        -50
     ];
-    expect(sumOfNumbers(numbers)).toBe(69);
+    expect(sumOfNumbers(numbers)).toBe(75);
 });
