@@ -3,7 +3,6 @@
 const assignment = {};
 // ========================
 
-
 /**
  * Challenge - 1
  *
@@ -16,9 +15,7 @@ const assignment = {};
  * @returns number the sum of the numbers from 1 to destination
  */
 function sumOfNumbersTo(destination) {
-  // Write your code here
-
-  return destination;
+    // Write your code here
 }
 
 assignment.sumOfNumbersTo = sumOfNumbersTo;
@@ -27,27 +24,27 @@ assignment.sumOfNumbersTo = sumOfNumbersTo;
  * Challenge - 2
  *
  * Calculate count, sum and put in an array the even numbers from 1 to a destination. Object keys are count, sum, arrayOfEvenNumbers.
+ *
  * If you did Challenge - 2, remove the comment in the line just after this function
  *
  * @param {Number} destination the stopping number
  * @returns the object containing count, sum, arrayOfEvenNumbers from 1 to destination
  */
 function countEvenNumbersWithin(destination) {
-  // Write your code here
-  // get the number from 1 to destination
-  let sum = 0;
-  let count = 0;
-  let arrayOfEvenNumbers = [];
+    // Write your code here
+    // get the number from 1 to destination
+    let sum = 0;
+    let count = 0;
+    let arrayOfEvenNumbers = [];
 
-
-  return {
-    // property value shorthand
-    // when the property name and the value name are the same
-    // you can just write the property name in your object
-    count,
-    sum,
-    arrayOfEvenNumbers,
-  };
+    return {
+        // property value shorthand
+        // when the property name and the value name are the same
+        // you can just write the property name in your object
+        count,
+        sum,
+        arrayOfEvenNumbers
+    };
 }
 
 // assignment.countEvenNumbersWithin = countEvenNumbersWithin;
@@ -71,7 +68,6 @@ function celsiusToFahrenheit(arrayOfNumbers) {
     return arrayOfNumbers;
 }
 // assignment.celsiusToFahrenheit = celsiusToFahrenheit;
-
 
 // ========================
 // DO NOT EDIT THIS BLOCK
