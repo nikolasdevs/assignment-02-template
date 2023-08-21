@@ -15,10 +15,12 @@ const assignment = {};
  * @returns number the sum of the numbers from 1 to destination
  */
 function sumOfNumbersTo(destination) {
-    // Write your code here
+    let sum = 0;
+    return sum
 }
 
-assignment.sumOfNumbersTo = sumOfNumbersTo;
+
+// assignment.sumOfNumbersTo = sumOfNumbersTo;
 
 /**
  * Challenge - 2
@@ -65,8 +67,11 @@ function countEvenNumbersWithin(destination) {
  * @returns Array the converted temperatures in Fahrenheit
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
-    return arrayOfNumbers;
+    let result = [];
+
+    return result;
 }
+
 // assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 // ========================
