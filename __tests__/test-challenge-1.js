@@ -1,4 +1,3 @@
-const axios = require('axios');
 const assignment = require('../src/assignment.js');
 
 const { sumOfNumbersTo } = assignment;
