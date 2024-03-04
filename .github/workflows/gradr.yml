@@ -54,7 +54,7 @@ jobs:
 
     - name: Report Audits
       if: always()
-      uses: exam-01-practice/jest-to-sheets@v2
+      uses: oluwasetemi/jest-to-sheets-modified@v1
       with:
         challenge: 'ch-1;ch-2;ch-3'
         lang: javascript
