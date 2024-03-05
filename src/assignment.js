@@ -16,11 +16,10 @@ const assignment = {};
  */
 
 function sumOfNumbersTo(destination) {
-    return(destination*(destination + 1))/2
+    let sum = (destination * (destination + 1)) / 2;
+    return sum;
 }
-let sum = sumOfNumbersTo(20);
-return sum
-
+sumOfNumbersTo(10);
 
 assignment.sumOfNumbersTo = sumOfNumbersTo;
 
@@ -42,10 +41,10 @@ function countEvenNumbersWithin(destination) {
     let arrayOfEvenNumbers = [];
 
     for (let i = 2; i <= destination; i += 2) {
-    count++;
-    sum += i;
-    arrayOfEvenNumbers.push(i);
-  }
+        count++;
+        sum += i;
+        arrayOfEvenNumbers.push(i);
+    }
 
     return {
         // property value shorthand
@@ -57,7 +56,7 @@ function countEvenNumbersWithin(destination) {
     };
 }
 
-countEvenNumbersWithin(20)
+countEvenNumbersWithin(10);
 
 assignment.countEvenNumbersWithin = countEvenNumbersWithin;
 
@@ -80,13 +79,13 @@ function celsiusToFahrenheit(arrayOfNumbers) {
     let result = [];
 
     for (let i = 0; i < arrayOfNumbers.length; i++) {
-    let fahrenheit = Math.trunc((arrayOfNumbers[i] * 9) / 5 + 32);
-    result.push(fahrenheit);
-  }
+        let fahrenheit = Math.trunc((arrayOfNumbers[i] * 9) / 5 + 32);
+        result.push(fahrenheit);
+    }
     return result;
 }
 
-celsiusToFahrenheit([30, 20, 47, 30.5, 45.9]);
+celsiusToFahrenheit([51.21, 23, 0, -55, 100]);
 
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
