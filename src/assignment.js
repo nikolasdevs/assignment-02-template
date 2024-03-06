@@ -45,7 +45,6 @@ function countEvenNumbersWithin(destination) {
         sum += i;
         arrayOfEvenNumbers.push(i);
     }
-
     return {
         // property value shorthand
         // when the property name and the value name are the same
@@ -57,7 +56,6 @@ function countEvenNumbersWithin(destination) {
 }
 
 countEvenNumbersWithin(10);
-
 assignment.countEvenNumbersWithin = countEvenNumbersWithin;
 
 /**
